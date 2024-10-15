@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <display-name>SistemaAGIS</display-name>
+  <welcome-file-list>
+    <welcome-file>viewchoose.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>MatriculaSecretariaServlet</display-name>
+    <servlet-name>MatriculaSecretariaServlet</servlet-name>
+    <servlet-class>controller.MatriculaSecretariaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MatriculaSecretariaServlet</servlet-name>
+    <url-pattern>/secretariamatricula</url-pattern>
+  </servlet-mapping>
+</web-app>

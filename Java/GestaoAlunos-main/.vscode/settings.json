@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "cSpell.words": [
+        "alunos",
+        "input",
+        "nascimento"
+    ],
+    "cSpell.ignoreWords": [
+        "student"
+    ]
+}
